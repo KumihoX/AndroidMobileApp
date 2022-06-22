@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/customElse"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageView
+        android:id="@+id/operationsField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_create_vars"
+        android:contentDescription="@string/vars_back" />
+
+    <ImageView
+        android:id="@+id/operationsData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/operationsField"
+        app:layout_constraintEnd_toEndOf="@+id/operationsField"
+        app:layout_constraintTop_toTopOf="@+id/operationsField"
+        app:srcCompat="@drawable/ic_vars_data_field"
+        android:contentDescription="@string/data_field" />
+
+    <ImageView
+        android:id="@+id/operationsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/operationsField"
+        app:layout_constraintStart_toStartOf="@+id/operationsField"
+        app:layout_constraintTop_toTopOf="@+id/operationsField"
+        app:srcCompat="@drawable/ic_vars_name_field"
+        android:contentDescription="@string/name_field" />
+
+    <TextView
+        android:id="@+id/equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assign"
+        android:shadowColor="@color/visibleText"
+        app:layout_constraintBottom_toBottomOf="@+id/operationsField"
+        app:layout_constraintEnd_toStartOf="@+id/operationsData"
+        app:layout_constraintStart_toEndOf="@+id/operationsName"
+        app:layout_constraintTop_toTopOf="@+id/operationsField" />
+
+    <EditText
+        android:id="@+id/operationsInputName"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:textColor="@color/visibleText"
+        android:textColorHint="@color/tintText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/operationsName"
+        app:layout_constraintEnd_toEndOf="@+id/operationsName"
+        app:layout_constraintStart_toStartOf="@+id/operationsName"
+        app:layout_constraintTop_toTopOf="@+id/operationsName" />
+
+    <EditText
+        android:id="@+id/operationsInputData"
+        android:layout_width="107dp"
+        android:layout_height="34dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/data"
+        android:textColor="@color/visibleText"
+        android:textColorHint="@color/tintText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/operationsData"
+        app:layout_constraintEnd_toEndOf="@+id/operationsData"
+        app:layout_constraintStart_toStartOf="@+id/operationsData"
+        app:layout_constraintTop_toTopOf="@+id/operationsData" />
+
+    <TextView
+        android:id="@+id/operationOnVariables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/operation_on_vars"
+        android:textSize="11sp"
+        android:textColor="@color/visibleText"
+        app:layout_constraintEnd_toEndOf="@+id/operationsField"
+        app:layout_constraintTop_toTopOf="@+id/operationsField" />
+
+
+</merge>

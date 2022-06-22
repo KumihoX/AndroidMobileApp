@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_arrow.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_button_add.xml" value="0.2435" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_category.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_console_field.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_create_vars.xml" value="0.2595" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_delete.xml" value="0.2435" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_else_field.xml" value="0.2435" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_end_if.xml" value="0.2435" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_filter.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_function.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_hot_deal.xml" value="0.2185" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_if_condition.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_if_field.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_java.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.144" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_operations_field.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_output_elems.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_output_field.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_plus.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_python.xml" value="0.2555" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_start.xml" value="0.2595" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_text_start.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_trash.xml" value="0.1205" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_vars_data_field.xml" value="0.2" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/drawable/ic_vars_name_field.xml" value="0.2" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/font/advent_pro.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/font/advent_pro_bold.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/font/montserrat.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/font/montserrat_bold.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/between_file.xml" value="0.21965579710144928" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/category_item.xml" value="0.72" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/console.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/console_try.xml" value="0.264" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/course_item.xml" value="0.25" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_block.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_create_vars.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_else.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_if.xml" value="0.6" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_operations.xml" value="0.264" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_output.xml" value="0.536" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/custom_while.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/for_console.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/outpur.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/popupmenu.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/layout/try_console.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/menu/popupmenu.xml" value="0.1" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/Veronika/projects/7Module/Language/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.128" />
+        <entry key="..\:/Users/Veronika/projects/Design/Design/Language/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Veronika/projects/Design/Design/Language/app/src/main/res/layout/category_item.xml" value="0.264" />
+        <entry key="..\:/Users/Veronika/projects/Design/Design/Language/app/src/main/res/layout/course_item.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

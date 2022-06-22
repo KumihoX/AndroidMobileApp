@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBgColor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/filter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_filter"
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="10dp"/>
+    
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryRecycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:listitem="@layout/category_item" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/courseRecycler"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/categoryRecycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        tools:listitem="@layout/course_item" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/ic_start"
+        android:src="@drawable/ic_text_start"
+        app:layout_constraintTop_toBottomOf="@+id/courseRecycler"
+        app:layout_constraintStart_toStartOf="@+id/courseRecycler"
+        android:contentDescription="@string/start" />
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/ic_delete"
+        android:src="@drawable/ic_trash"
+        app:layout_constraintTop_toBottomOf="@+id/courseRecycler"
+        app:layout_constraintStart_toEndOf="@+id/start"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/delete" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_marginTop="20dp"
+        android:layout_width="409dp"
+        android:layout_height="480dp"
+        app:layout_constraintTop_toBottomOf="@+id/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.jmedeisis.draglinearlayout.DragLinearLayout
+            android:id="@+id/addField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+
+    <include layout="@layout/console"
+        android:id="@+id/consoleField"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

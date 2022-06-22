@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/create"
+        android:title="@string/create_vars" />
+    <item android:id="@+id/operation"
+        android:title="@string/operation_on_vars" />
+    <item android:id="@+id/output"
+        android:title="@string/output" />
+    <item android:id="@+id/ifBlock"
+        android:title="@string/if_block" />
+    <item android:id="@+id/elseBlock"
+        android:title="@string/else_block" />
+    <item android:id="@+id/whileBlock"
+        android:title="@string/while_block" />
+</menu>

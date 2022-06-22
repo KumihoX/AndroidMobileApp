@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/customIf"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageView
+        android:id="@+id/ifField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_if_field"
+        android:contentDescription="@string/if_back" />
+
+    <TextView
+        android:id="@+id/ifTextStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/if_block"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ifField"
+        app:layout_constraintStart_toStartOf="@+id/ifField"
+        app:layout_constraintTop_toTopOf="@+id/ifField" />
+
+    <TextView
+        android:id="@+id/ifTextStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/then"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ifField"
+        app:layout_constraintEnd_toEndOf="@+id/ifField"
+        app:layout_constraintTop_toTopOf="@+id/ifField" />
+
+    <ImageView
+        android:id="@+id/ifCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ifField"
+        app:layout_constraintEnd_toStartOf="@+id/ifTextStop"
+        app:layout_constraintStart_toEndOf="@+id/ifTextStart"
+        app:layout_constraintTop_toTopOf="@+id/ifField"
+        app:srcCompat="@drawable/ic_if_condition"
+        android:contentDescription="@string/condition" />
+
+    <EditText
+        android:id="@+id/editCondition"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/condition"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/visibleText"
+        android:textColorHint="@color/tintText"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ifCondition"
+        app:layout_constraintEnd_toEndOf="@+id/ifCondition"
+        app:layout_constraintStart_toStartOf="@+id/ifCondition"
+        app:layout_constraintTop_toTopOf="@+id/ifCondition" />
+
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_button_add"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@+id/ifField"
+        app:layout_constraintTop_toTopOf="@+id/ifField"
+        app:srcCompat="@drawable/ic_plus"
+        android:contentDescription="@string/add" />
+
+
+    <com.jmedeisis.draglinearlayout.DragLinearLayout
+        android:id="@+id/addInIfField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ifField"
+        android:layout_marginStart="32dp">
+    </com.jmedeisis.draglinearlayout.DragLinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addInIfField"
+        android:layout_marginStart="15dp"
+        app:srcCompat="@drawable/ic_end_if"
+        android:contentDescription="@string/end" />
+
+</merge>

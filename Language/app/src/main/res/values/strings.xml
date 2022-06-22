@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Console</string>
+    <string name="filter">Filter</string>
+    <string name="category_item">CategoryItem</string>
+    <string name="name">Название</string>
+    <string name="data">Значение</string>
+    <string name="condition">Условие</string>
+    <string name="elems">Элементы</string>
+    <string name="delete">Delete</string>
+    <string name="start">Start</string>
+    <string name="operation_on_vars">Операции над переменными</string>
+    <string name="create_vars">Создание\nпеременной</string>
+    <string name="new_vars">Новая переменная</string>
+    <string name="output">Вывод</string>
+    <string name="else_block">Иначе</string>
+    <string name="if_block">Если</string>
+    <string name="then">, то</string>
+    <string name="until">Пока</string>
+    <string name="withdraw">Вывести</string>
+    <string name="while_block">Цикл While</string>
+    <string name="variables">Переменные</string>
+    <string name="console">Console</string>
+    <string name="vars_back">Variables Background</string>
+    <string name="else_back">Else Background</string>
+    <string name="if_back">If Background</string>
+    <string name="output_back">Output Background</string>
+    <string name="while_back">While Background</string>
+    <string name="void_field">0</string>
+    <string name="assign">=</string>
+    <string name="name_field">Name Field Background</string>
+    <string name="data_field">Data Field Background</string>
+    <string name="condition_field">Condition Field Background</string>
+    <string name="output_field">Output Field Background</string>
+    <string name="add">Add Button</string>
+    <string name="end">End Block</string>
+
+
+
+</resources>

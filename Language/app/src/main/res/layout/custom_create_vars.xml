@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/customCreateVars"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageView
+        android:id="@+id/varsBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_create_vars"
+        android:contentDescription="@string/vars_back" />
+
+    <TextView
+        android:id="@+id/varsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_vars"
+        android:textColor="@color/visibleText"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/varsBg"
+        app:layout_constraintTop_toTopOf="@id/varsBg"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="7dp"/>
+
+    <ImageView
+        android:id="@+id/varsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/varsBg"
+        app:layout_constraintStart_toStartOf="@+id/varsBg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_vars_name_field"
+        android:contentDescription="@string/name_field" />
+
+    <ImageView
+        android:id="@+id/varsData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/varsBg"
+        app:layout_constraintEnd_toEndOf="@+id/varsBg"
+        app:layout_constraintTop_toTopOf="@+id/varsBg"
+        app:srcCompat="@drawable/ic_vars_data_field"
+        android:contentDescription="@string/data_field" />
+
+    <TextView
+        android:id="@+id/assign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/visibleText"
+        android:text="@string/assign"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/varsBg"
+        app:layout_constraintEnd_toStartOf="@+id/varsData"
+        app:layout_constraintStart_toEndOf="@+id/varsName"
+        app:layout_constraintTop_toTopOf="@+id/varsBg" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColor="@color/visibleText"
+        android:textColorHint="@color/tintText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/varsBg"
+        app:layout_constraintEnd_toEndOf="@+id/varsName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/varsName"
+        app:layout_constraintTop_toTopOf="@+id/varsName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="107dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:text="@string/void_field"
+        android:hint="@string/data"
+        android:inputType="textPersonName"
+        android:textColor="@color/visibleText"
+        android:textColorHint="@color/tintText"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/varsBg"
+        app:layout_constraintEnd_toEndOf="@+id/varsData"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/varsData"
+        app:layout_constraintTop_toTopOf="@+id/varsData"
+        app:layout_constraintVertical_bias="0.0" />
+
+</merge>
